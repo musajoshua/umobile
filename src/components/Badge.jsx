@@ -2,7 +2,7 @@ import React from "react";
 
 export function AppStoreBadge() {
   return (
-    <div class="flex mt-3 px-3 py-1.5 bg-eerie-black text-white rounded-lg items-center justify-center">
+    <div class="flex mt-3 mr-4 px-3 py-1.5 bg-eerie-black text-white rounded-lg items-center justify-center">
       <div class="mr-3">
         <svg viewBox="0 0 384 512" width="30">
           <path
@@ -21,7 +21,7 @@ export function AppStoreBadge() {
 
 export function PlayStoreBadge() {
   return (
-    <div class="flex mt-3 px-3 py-1.5 bg-eerie-black text-white rounded-lg items-center justify-center">
+    <div class="flex mt-3 mr-4 px-3 py-1.5 bg-eerie-black text-white rounded-lg items-center justify-center">
       <div class="mr-3">
         <svg viewBox="30 336.7 120.9 129.2" width="30">
           <path

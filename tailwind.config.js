@@ -7,6 +7,8 @@ module.exports = {
         drive: "url('./images/drive.png')",
         ride: "url('./images/ride.png')",
         map: "url('./images/map.png')",
+        mappath: "url('./images/map_path.png')",
+        phone: "url('./images/phone_rider.png')",
       },
       borderRadius: {
         "25p": "50px",
@@ -16,6 +18,7 @@ module.exports = {
       },
       fontSize: {
         "5xl": "40px",
+        "6xl": "48px",
       },
       colors: {
         "black-transparent": "rgba(0, 0, 0, 0.8)",

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../images/logo@2x.png";
 import facebook from "../images/facebook.svg";
 import whiteFacebook from "../images/white-facebook@2x.png";

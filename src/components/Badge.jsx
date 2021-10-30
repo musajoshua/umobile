@@ -2,8 +2,8 @@ import React from "react";
 
 export function AppStoreBadge() {
   return (
-    <div class="flex mt-3 mr-4 px-3 py-1.5 bg-eerie-black text-white rounded-lg items-center justify-center">
-      <div class="mr-3">
+    <div className="flex mt-3 mr-4 px-3 py-1.5 bg-eerie-black text-white rounded-lg items-center justify-center">
+      <div className="mr-3">
         <svg viewBox="0 0 384 512" width="30">
           <path
             fill="currentColor"
@@ -12,8 +12,8 @@ export function AppStoreBadge() {
         </svg>
       </div>
       <div className="text-left">
-        <div class="text-xs">Download on the</div>
-        <div class="text-sm font-semibold -mt-1">App Store</div>
+        <div className="text-xs">Download on the</div>
+        <div className="text-sm font-semibold -mt-1">App Store</div>
       </div>
     </div>
   );
@@ -21,8 +21,8 @@ export function AppStoreBadge() {
 
 export function PlayStoreBadge() {
   return (
-    <div class="flex mt-3 mr-4 px-3 py-1.5 bg-eerie-black text-white rounded-lg items-center justify-center">
-      <div class="mr-3">
+    <div className="flex mt-3 mr-4 px-3 py-1.5 bg-eerie-black text-white rounded-lg items-center justify-center">
+      <div className="mr-3">
         <svg viewBox="30 336.7 120.9 129.2" width="30">
           <path
             fill="#FFD400"
@@ -43,8 +43,8 @@ export function PlayStoreBadge() {
         </svg>
       </div>
       <div className="text-left">
-        <div class="text-xs">GET IT ON</div>
-        <div class="text-sm font-semibold -mt-1">Google Play</div>
+        <div className="text-xs">GET IT ON</div>
+        <div className="text-sm font-semibold -mt-1">Google Play</div>
       </div>
     </div>
   );

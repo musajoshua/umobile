@@ -9,6 +9,8 @@ module.exports = {
         map: "url('./images/map.png')",
         mappath: "url('./images/map_path.png')",
         phone: "url('./images/phone_rider.png')",
+        stepmap: "url('./images/stepcard.png')",
+        footer: "url('./images/footer.png')",
       },
       borderRadius: {
         "25p": "50px",

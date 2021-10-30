@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/logo@2x.png";
 import facebook from "../images/facebook.svg";
 import whiteFacebook from "../images/white-facebook@2x.png";
@@ -8,7 +9,7 @@ import instagram from "../images/instagram.svg";
 import whiteInstagram from "../images/white-instagram@2x.png";
 import linkedin from "../images/linkedin.svg";
 import whiteLinkedin from "../images/white-linkIn@2x.png";
-import Button from "../components/Button";
+import { LeftButton, RightButton } from "../components/Button";
 
 function Landing() {
   return (
@@ -53,17 +54,17 @@ function Landing() {
 
       <div className="flex flex-col md:flex-row h-90-screen">
         <div className="flex flex-col justify-end md:flex-row md:justify-end items-center bg-ride bg-cover bg-no-repeat h-1/2 md:h-screen md:w-1/2 bg-center md:bg-left-bottom">
-          <Button
+          <LeftButton
+            to="/rider"
             className="mb-5 md:mb-0 md:transform md:-translate-y-full"
-            left
           >
             Ride With Us
-          </Button>
+          </LeftButton>
         </div>
         <div className="flex flex-col justify-end md:flex-row md:justify-start items-center bg-drive bg-cover bg-no-repeat h-1/2 md:h-screen md:w-1/2 bg-right-top md:bg-right-bottom">
-          <Button className="mb-5 md:mb-0" right>
+          <RightButton to="/driver" className="mb-5 md:mb-0">
             Drive & Earn With Us
-          </Button>
+          </RightButton>
         </div>
       </div>
     </div>

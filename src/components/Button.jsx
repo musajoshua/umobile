@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
 
-const Button = styled.button.attrs({
+const Button = styled(Link).attrs({
   className:
     "uppercase bg-black-transparent backdrop-filter backdrop-blur py-5 px-11 text-white text-center box-content font-bold",
 })`
@@ -15,19 +16,19 @@ const Button = styled.button.attrs({
     padding-top: 2rem;
     padding-bottom: 2rem;
     width: 11rem;
-    ${(props) =>
-      props.left &&
-      css`
-        padding-left: 80px;
-        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
-      `}
-    ${(props) =>
-      props.right &&
-      css`
-        padding-right: 80px;
-        clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
-      `};
   }
 `;
 
-export default Button;
+export const LeftButton = styled(Button).attrs()`
+  @media (min-width: 768px) {
+    padding-left: 80px;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+  }
+`;
+
+export const RightButton = styled(Button).attrs()`
+  @media (min-width: 768px) {
+    padding-right: 80px;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  }
+`;

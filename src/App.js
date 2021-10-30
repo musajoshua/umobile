@@ -5,6 +5,7 @@ import RideGroup from "./images/ride_group.png";
 import PhoneRider from "./images/phone_rider.png";
 import PhoneDouble from "./images/phone_double.png";
 import { AppStoreBadge, PlayStoreBadge } from "./components/Badge";
+import { Card, StepCard } from "./components/Card";
 
 function App() {
   return (
@@ -70,10 +71,23 @@ function App() {
         <h1 className="mt-7 text-lg text-black font-bold">
           Keep Moving In 3 Steps
         </h1>
-        <div className="flex">
-          <StepCard />
+        <div className="flex flex-col md:flex-row h-full">
+          <StepCard
+            className="md:self-start"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
+          deserunt ea doloremque natus error"
+          />
+          <StepCard
+            className="md:self-center"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
+          deserunt ea doloremque natus error"
+          />
+          <StepCard
+            className="md:self-start"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
+          deserunt ea doloremque natus error"
+          />
         </div>
-
       </section>
       <section className="h-screen">
         <div className="flex flex-wrap min-h-2/3 bg-mappath bg-top bg-cover bg-no-repeat p-6">
@@ -81,48 +95,22 @@ function App() {
             <img src={PhoneDouble} alt="Phone" />
           </div>
           <div className="text-center mt-4 md:p-8 lg:text-left lg:w-1/2">
-            <p className="text-3xl text-black font-bold my-2">Move with Umobile</p>
+            <p className="text-3xl text-black font-bold my-2">
+              Move with Umobile
+            </p>
             <p className="text-3xl text-black font-bold">Anytime, Anyday</p>
             <p className="text-gray-500 mt-5 text-sm lg:w-3/4">
-              Let’s paint you a picture, you’ve got tons of meetings planned out for the day,
-              and maybe a hangout or two with the besties, Driving yourself around can be a tad bit stressful.
-              Our suggestion? kick it in the backseat of your car, while our driver takes you everywhere you need to be safely.
+              Let’s paint you a picture, you’ve got tons of meetings planned out
+              for the day, and maybe a hangout or two with the besties, Driving
+              yourself around can be a tad bit stressful. Our suggestion? kick
+              it in the backseat of your car, while our driver takes you
+              everywhere you need to be safely.
             </p>
           </div>
         </div>
       </section>
     </div>
   );
-}
-function Card({ number, content }) {
-  return (
-    <div className="mx-16 my-12 py-4 bg-white rounded-bl-3xl shadow-lg">
-      <div className="inline-block rounded-full bg-gray-200 my-2 px-3 py-1">
-        {number}
-      </div>
-      <h1 className="font-bold text-gray-700 mb-4">Lorem Ipsum</h1>
-      <p className="text-gray-500 text-center mb-8">
-        {content}
-      </p>
-    </div>
-  )
-}
-
-function StepCard({ content }) {
-  return (
-    <div className="flex-initial w-full md:w-1/4 mx-16 my-12 py-4 px-4 bg-white rounded-lg shadow-lg">
-      <div className="flex justify-end">
-        <div className="inline-block rounded-full bg-gray-200 my-2 px-4 py-4"></div>
-      </div>
-      <div className="text-left">
-        <h2 className="text-gray-700 font-semibold">Lorem</h2>
-        <p className="mt-2 text-gray-500 text-xs">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-          dolores deserunt ea doloremque natus error
-        </p>
-      </div>
-    </div>
-  )
 }
 
 export default App;

@@ -10,11 +10,11 @@ import { Card, StepCard } from "./../components/Card";
 
 function Rider() {
   return (
-    <div>
-      <section className="bg-map text-center">
+    <section>
+      <section className="bg-map text-center md:px-16">
         <Navbar />
         <div className="flex flex-wrap p-6">
-          <div className="flex items-center justify-center md:w-1/2 xl:w-3/4 md:order-last">
+          <div className="flex items-center justify-center md:justify-end md:w-1/2 xl:w-3/4 md:order-last">
             <img src={RideGroup} alt="RideGroup" />
           </div>
           <div className="flex items-center justify-center flex-col w-full md:items-start md:w-1/2 xl:w-1/4">
@@ -27,7 +27,6 @@ function Rider() {
             <p className="capitalize text-sm text-dark-silver">
               let's keep you moving
             </p>
-
             <div className="flex w-full justify-center md:justify-start">
               <PlayStoreBadge />
               <AppStoreBadge />
@@ -35,7 +34,7 @@ function Rider() {
           </div>
         </div>
       </section>
-      <section className="overflow-y-auto h-screen text-center xl:overflow-y-hidden">
+      <section className="overflow-y-auto text-center xl:overflow-y-hidden">
         <h1 className="mt-7 text-lg text-black font-bold">Why US?</h1>
         <div className="flex flex-wrap bg-phone md:bg-opacity-10 xl:bg-none bg-no-repeat bg-center bg-contain">
           <div className="flex flex-wrap w-full md:w-1/2 xl:w-1/3">
@@ -67,23 +66,21 @@ function Rider() {
           </div>
         </div>
       </section>
-      <section className="overflow-y-auto h-screen text-center">
+      <section className="overflow-y-auto text-center">
         <h1 className="mt-7 text-lg text-black font-bold">
           Keep Moving In 3 Steps
         </h1>
-        <div className="flex flex-col md:flex-row h-full">
+        <div className="flex flex-col md:flex-row md:bg-stepmap md:bg-no-repeat md:bg-center md:bg-contain">
           <StepCard
-            className="md:self-start"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
           deserunt ea doloremque natus error"
           />
           <StepCard
-            className="md:self-center"
+            className=""
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
           deserunt ea doloremque natus error"
           />
           <StepCard
-            className="md:self-start"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
           deserunt ea doloremque natus error"
           />
@@ -109,7 +106,7 @@ function Rider() {
           </div>
         </div>
       </section>
-    </div>
+    </section>
   );
 }
 

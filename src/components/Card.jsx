@@ -2,7 +2,7 @@ import React from "react";
 
 export function Card({ number, content }) {
   return (
-    <div className="mx-16 my-12 py-4 bg-white rounded-bl-3xl shadow-lg">
+    <div className="mx-8 my-6 md:mx-16 md:my-12 py-4 bg-white rounded-bl-3xl shadow-lg">
       <div className="inline-block rounded-full bg-gray-200 my-2 px-3 py-1">
         {number}
       </div>

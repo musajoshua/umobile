@@ -36,7 +36,7 @@ function Rider() {
       </section>
       <section className="overflow-y-auto text-center xl:overflow-y-hidden">
         <h1 className="mt-8 text-lg text-black font-bold">Why US?</h1>
-        <div className="flex flex-wrap bg-phone md:bg-opacity-10 xl:bg-none bg-no-repeat bg-center bg-contain">
+        <div className="flex flex-wrap bg-phone z-10 relative before:-z-10 before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:bg-white-transparent md:before:bg-none md:bg-opacity-10 xl:bg-none bg-no-repeat bg-center bg-contain">
           <div className="flex flex-wrap w-full md:w-1/2 xl:w-1/3">
             <Card
               number={1}
@@ -73,15 +73,15 @@ function Rider() {
         <div className="md:bg-stepmap md:bg-no-repeat md:bg-center md:bg-contain">
           <div className="flex flex-col md:flex-row md:py-20 items-start md:h-[500px]">
             <StepCard
-              className="mx-16 my-12"
+              className="mx-8 my-6 md:mx-16 md:my-12 "
               content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet"
             />
             <StepCard
-              className="mx-16 my-12 self-end"
+              className="mx-8 my-6 md:mx-16 md:my-12  self-end"
               content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet"
             />
             <StepCard
-              className="mx-16 my-12"
+              className="mx-8 my-6 md:mx-16 md:my-12 "
               content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet"
             />
           </div>

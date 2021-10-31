@@ -14,6 +14,9 @@ module.exports = {
         corevalues: "url('./images/corevalues@2x.png')",
         footer: "url('./images/footer.png')",
       },
+      zIndex: {
+        "-10": "-10",
+      },
       borderRadius: {
         "25p": "50px",
       },
@@ -31,6 +34,7 @@ module.exports = {
         "eerie-black": "#17181A",
         "blue-violet": "#722ED1",
         magnolia: "#F9F0FF",
+        "white-transparent": "rgba(255, 255, 255, 0.9)",
       },
     },
   },

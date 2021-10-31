@@ -36,7 +36,7 @@ function Footer() {
         </div>
         <div className="py-4 md:w-1/3">
           <img src={logo} alt="Umobile Logo" />
-          <p className="mt-7 text-gray-500">
+          <p className="mt-8 text-gray-500">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
             volutpat ut wisi enim ad minim

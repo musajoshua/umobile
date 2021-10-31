@@ -35,7 +35,7 @@ function Rider() {
         </div>
       </section>
       <section className="overflow-y-auto text-center xl:overflow-y-hidden">
-        <h1 className="mt-7 text-lg text-black font-bold">Why US?</h1>
+        <h1 className="mt-8 text-lg text-black font-bold">Why US?</h1>
         <div className="flex flex-wrap bg-phone md:bg-opacity-10 xl:bg-none bg-no-repeat bg-center bg-contain">
           <div className="flex flex-wrap w-full md:w-1/2 xl:w-1/3">
             <Card
@@ -67,7 +67,7 @@ function Rider() {
         </div>
       </section>
       <section className="overflow-y-auto text-center">
-        <h1 className="mt-7 text-lg text-black font-bold">
+        <h1 className="mt-8 text-lg text-black font-bold">
           Keep Moving In 3 Steps
         </h1>
         <div className="flex flex-col md:flex-row md:bg-stepmap md:bg-no-repeat md:bg-center md:bg-contain">

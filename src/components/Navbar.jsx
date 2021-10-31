@@ -20,7 +20,7 @@ function Navbar() {
         >
           <li className="py-3 md:py-0 md:px-2">
             <NavLink
-              activeClassName="relative py-1 after:absolute after:bottom-0 after:left-0 after:w-2/3 after:border-solid after:border-b-2 after:border-electric-ultramarine"
+              activeClassName="relative py-1 md:after:absolute md:after:bottom-0 md:after:left-0 md:after:w-2/3 md:after:border-solid md:after:border-b-2 md:after:border-electric-ultramarine"
               to="/about"
             >
               About
@@ -28,7 +28,7 @@ function Navbar() {
           </li>
           <li className="py-3 md:py-0 md:px-2">
             <NavLink
-              activeClassName="relative py-1 after:absolute after:bottom-0 after:left-0 after:w-2/3 after:border-solid after:border-b-2 after:border-electric-ultramarine"
+              activeClassName="relative py-1 md:after:absolute md:after:bottom-0 md:after:left-0 md:after:w-2/3 md:after:border-solid md:after:border-b-2 md:after:border-electric-ultramarine"
               to="/driver"
             >
               Book a Driver
@@ -36,7 +36,7 @@ function Navbar() {
           </li>
           <li className="py-3 pb-9 md:py-0 md:px-2">
             <NavLink
-              activeClassName="relative py-1 after:absolute after:bottom-0 after:left-0 after:w-2/3 after:border-solid after:border-b-2 after:border-electric-ultramarine"
+              activeClassName="relative py-1 md:after:absolute md:after:bottom-0 md:after:left-0 md:after:w-2/3 md:after:border-solid md:after:border-b-2 md:after:border-electric-ultramarine"
               to="/rider"
             >
               Become a Driver

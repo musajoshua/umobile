@@ -66,24 +66,25 @@ function Rider() {
           </div>
         </div>
       </section>
-      <section className="overflow-y-auto text-center">
+      <section className="text-center">
         <h1 className="mt-8 text-lg text-black font-bold">
           Keep Moving In 3 Steps
         </h1>
-        <div className="flex flex-col md:flex-row md:bg-stepmap md:bg-no-repeat md:bg-center md:bg-contain">
-          <StepCard
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-          deserunt ea doloremque natus error"
-          />
-          <StepCard
-            className=""
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-          deserunt ea doloremque natus error"
-          />
-          <StepCard
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-          deserunt ea doloremque natus error"
-          />
+        <div className="md:bg-stepmap md:bg-no-repeat md:bg-center md:bg-contain">
+          <div className="flex flex-col md:flex-row md:py-20 items-start md:h-[500px]">
+            <StepCard
+              className="mx-16 my-12"
+              content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet"
+            />
+            <StepCard
+              className="mx-16 my-12 self-end"
+              content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet"
+            />
+            <StepCard
+              className="mx-16 my-12"
+              content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet"
+            />
+          </div>
         </div>
       </section>
       <section className="h-screen">

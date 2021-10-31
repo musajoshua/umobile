@@ -4,10 +4,10 @@ import Input from "../components/Input";
 
 function Footer() {
   return (
-    <footer className="bg-footer w-full bg-no-repeat bg-center px-6 py-20">
+    <footer className="bg-footer w-full bg-no-repeat bg-center px-6 md:py-20">
       <div className="flex flex-col md:flex-row w-full justify-around">
         <div className="md:order-last md:w-1/3">
-          <p className="font-bold py-4 mt-12 md:mt-0">Newsletter</p>
+          <p className="font-bold py-6 mt-12 md:mt-0">Newsletter</p>
           <div className="relative ">
             <div className="absolute w-full">
               <Input
@@ -45,19 +45,19 @@ function Footer() {
         <div>
           <p className="font-bold py-4">Support</p>
           <ul className="text-gray-500">
-            <li className="py-2">
+            <li className="py-3">
               <a href="/">Help Center</a>
             </li>
-            <li className="py-2">
+            <li className="py-3">
               <a href="/">Contact Us</a>
             </li>
-            <li className="py-2">
+            <li className="py-3">
               <a href="/">Securities Bulletin</a>
             </li>
-            <li className="py-2">
+            <li className="py-3">
               <a href="/">Documentation</a>
             </li>
-            <li className="py-2">
+            <li className="py-3">
               <a href="/">Partner Portal</a>
             </li>
           </ul>

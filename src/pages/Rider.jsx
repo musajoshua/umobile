@@ -18,7 +18,7 @@ function Rider() {
             <img src={RideGroup} alt="RideGroup" />
           </div>
           <div className="flex items-center justify-center flex-col w-full md:items-start md:w-1/2 xl:w-1/4">
-            <h1 className="text-black font-bold text-5xl capitalize md:tracking-wide xl:text-6xl">
+            <h1 className="text-black font-bold text-5xl capitalize md:tracking-wide xl:text-6xl md:text-left">
               book a <span className="text-electric-ultramarine">driver</span>!
             </h1>
             <p className="capitalize text-sm text-dark-silver">

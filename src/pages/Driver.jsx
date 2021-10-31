@@ -96,7 +96,7 @@ function Driver() {
           <img src={PhoneDouble} alt="Phone" />
         </div>
         <div className="flex w-full lg:w-1/2 justify-center">
-          <div className="px-6 bg-white lg:w-1/2">
+          <div className="px-6 bg-white xl:w-1/2">
             <h1 className="font-bold text-center text-gray-700 mb-4 mt-8">
               Sign Up
             </h1>

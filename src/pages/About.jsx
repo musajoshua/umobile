@@ -16,7 +16,7 @@ function About() {
             <h1 className="text-black font-bold text-5xl capitalize md:tracking-wide xl:text-6xl md:text-left">
               About <span className="text-electric-ultramarine">US</span>!
             </h1>
-            <p className="capitalize text-sm text-dark-silver mt-10">
+            <p className="capitalize text-sm md:text-lg text-dark-silver mt-10">
               We provide an avenue for you to ride, in the comfort of your own
               car. As we provide well equipped drivers to keep you moving at all
               times.We provide an avenue for you to ride, in the comfort of your

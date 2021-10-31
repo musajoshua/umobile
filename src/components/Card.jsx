@@ -24,7 +24,9 @@ export function CircularCard({ svg, title, content, className }) {
       </div>
       <div className="m-2 p-4 text-center">
         <h1 className="font-bold text-gray-700 mb-4">{title}</h1>
-        <p className="text-gray-500 text-center mb-8 text-sm">{content}</p>
+        <p className="text-gray-500 text-center mb-8 text-sm md:text-lg">
+          {content}
+        </p>
       </div>
     </div>
   );

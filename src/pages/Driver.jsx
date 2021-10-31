@@ -25,10 +25,10 @@ function Driver() {
               drive and earn with{" "}
               <span className="text-electric-ultramarine">US</span>!
             </h1>
-            <p className="capitalize text-sm text-dark-silver">
+            <p className="capitalize text-sm md:text-lg text-dark-silver">
               got no car but you want to drive and earn?
             </p>
-            <p className="capitalize text-sm text-dark-silver">
+            <p className="capitalize text-sm md:text-lg text-dark-silver">
               let's keep you moving
             </p>
             <div className="flex w-full justify-center md:justify-start">

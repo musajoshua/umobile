@@ -21,10 +21,10 @@ function Rider() {
             <h1 className="text-black font-bold text-5xl capitalize md:tracking-wide xl:text-6xl md:text-left">
               book a <span className="text-electric-ultramarine">driver</span>!
             </h1>
-            <p className="capitalize text-sm text-dark-silver">
+            <p className="capitalize text-sm md:text-lg text-dark-silver">
               got a car but you're too tired to drive?
             </p>
-            <p className="capitalize text-sm text-dark-silver">
+            <p className="capitalize text-sm md:text-lg text-dark-silver">
               let's keep you moving
             </p>
             <div className="flex w-full justify-center md:justify-start">
@@ -96,7 +96,7 @@ function Rider() {
             Move with Umobile
           </p>
           <p className="text-3xl text-black font-bold">Anytime, Anyday</p>
-          <p className="text-gray-500 mt-5 text-sm lg:w-3/4">
+          <p className="text-gray-500 mt-5 text-sm md:text-lg lg:w-3/4">
             Let’s paint you a picture, you’ve got tons of meetings planned out
             for the day, and maybe a hangout or two with the besties, Driving
             yourself around can be a tad bit stressful. Our suggestion? kick it

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import Hamburger from "./Hamburger";
 import logo from "../images/logo@2x.png";
 
@@ -7,7 +8,9 @@ function Navbar() {
   return (
     <nav className="relative bg-white md:bg-transparent p-6 drop-shadow-sm">
       <div className="flex justify-between items-center">
-        <img src={logo} alt="Umobile Logo" height={19} width={69} />
+        <NavLink to="/">
+          <img src={logo} alt="Umobile Logo" height={19} width={69} />
+        </NavLink>
         <ul
           className={` ${
             !isOpen
@@ -15,9 +18,30 @@ function Navbar() {
               : "absolute top-16 left-0 text-right bg-white w-full px-6"
           }`}
         >
-          <li className="py-3 md:py-0 md:px-2">About</li>
-          <li className="py-3 md:py-0 md:px-2">Book a Driver</li>
-          <li className="pt-3 pb-9 md:py-0 md:px-2">Become a Driver</li>
+          <li className="py-3 md:py-0 md:px-2">
+            <NavLink
+              activeClassName="relative py-1 after:absolute after:bottom-0 after:left-0 after:w-2/3 after:border-solid after:border-b-2 after:border-electric-ultramarine"
+              to="/about"
+            >
+              About
+            </NavLink>
+          </li>
+          <li className="py-3 md:py-0 md:px-2">
+            <NavLink
+              activeClassName="relative py-1 after:absolute after:bottom-0 after:left-0 after:w-2/3 after:border-solid after:border-b-2 after:border-electric-ultramarine"
+              to="/driver"
+            >
+              Book a Driver
+            </NavLink>
+          </li>
+          <li className="py-3 pb-9 md:py-0 md:px-2">
+            <NavLink
+              activeClassName="relative py-1 after:absolute after:bottom-0 after:left-0 after:w-2/3 after:border-solid after:border-b-2 after:border-electric-ultramarine"
+              to="/rider"
+            >
+              Become a Driver
+            </NavLink>
+          </li>
         </ul>
 
         <Hamburger

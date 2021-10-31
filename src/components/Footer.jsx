@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/logo@2x.png";
+import Input from "../components/Input";
 
 function Footer() {
   return (
@@ -7,12 +8,30 @@ function Footer() {
       <div className="flex flex-col md:flex-row w-full justify-around">
         <div className="md:order-last md:w-1/3">
           <p className="font-bold py-4 mt-12 md:mt-0">Newsletter</p>
-          <div>
-            <input
-              type="text"
-              className="shadow-lg p-4 w-full"
-              placeholder="Email"
-            />
+          <div className="relative ">
+            <div className="absolute w-full">
+              <Input
+                type="text"
+                className="shadow-lg pr-12"
+                placeholder="Email"
+              />
+            </div>
+            <div className="absolute top-2 right-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="37.347"
+                height="37.347"
+                viewBox="0 0 37.347 37.347"
+              >
+                <path
+                  id="Icon_ionic-ios-send"
+                  data-name="Icon ionic-ios-send"
+                  d="M25.577.059.328,11.064a.579.579,0,0,0,.021,1.052l6.83,3.859a1.1,1.1,0,0,0,1.259-.124L21.9,4.241c.089-.076.3-.22.385-.138s-.048.3-.124.385L10.514,17.612a1.1,1.1,0,0,0-.11,1.314l4.464,7.16a.581.581,0,0,0,1.045-.014L26.355.823A.579.579,0,0,0,25.577.059Z"
+                  transform="translate(18.672) rotate(45)"
+                  fill="#3b00fe"
+                />
+              </svg>
+            </div>
           </div>
         </div>
         <div className="py-4 md:w-1/3">

@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -27,6 +28,8 @@ module.exports = {
         "electric-ultramarine": "#3C00FF",
         "dark-silver": "#707070",
         "eerie-black": "#17181A",
+        "blue-violet": "#722ED1",
+        magnolia: "#F9F0FF",
       },
     },
   },

@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Landing from "../pages/Landing";
 import Rider from "../pages/Rider";
+import Driver from "../pages/Driver";
 
 /**
  * Routes component
@@ -14,6 +15,7 @@ const Routes = () => {
     <Switch>
       <Route path="/" exact component={Landing} />
       <Route path="/rider" exact component={Rider} />
+      <Route path="/driver" exact component={Driver} />
 
       {/* <Route path="*" component={NotFound} /> */}
     </Switch>

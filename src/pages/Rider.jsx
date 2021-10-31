@@ -87,24 +87,22 @@ function Rider() {
           </div>
         </div>
       </section>
-      <section className="h-screen">
-        <div className="flex flex-wrap min-h-2/3 bg-mappath bg-top bg-cover bg-no-repeat p-6">
-          <div className="w-full lg:w-1/2 lg:order-last">
-            <img src={PhoneDouble} alt="Phone" />
-          </div>
-          <div className="text-center mt-4 md:p-8 lg:text-left lg:w-1/2">
-            <p className="text-3xl text-black font-bold my-2">
-              Move with Umobile
-            </p>
-            <p className="text-3xl text-black font-bold">Anytime, Anyday</p>
-            <p className="text-gray-500 mt-5 text-sm lg:w-3/4">
-              Let’s paint you a picture, you’ve got tons of meetings planned out
-              for the day, and maybe a hangout or two with the besties, Driving
-              yourself around can be a tad bit stressful. Our suggestion? kick
-              it in the backseat of your car, while our driver takes you
-              everywhere you need to be safely.
-            </p>
-          </div>
+      <section className="flex flex-wrap min-h-2/3 bg-mappath bg-top bg-cover bg-no-repeat p-6">
+        <div className="w-full lg:w-1/2 lg:order-last">
+          <img src={PhoneDouble} alt="Phone" />
+        </div>
+        <div className="text-center mt-4 md:p-8 lg:text-left lg:w-1/2">
+          <p className="text-3xl text-black font-bold my-2">
+            Move with Umobile
+          </p>
+          <p className="text-3xl text-black font-bold">Anytime, Anyday</p>
+          <p className="text-gray-500 mt-5 text-sm lg:w-3/4">
+            Let’s paint you a picture, you’ve got tons of meetings planned out
+            for the day, and maybe a hangout or two with the besties, Driving
+            yourself around can be a tad bit stressful. Our suggestion? kick it
+            in the backseat of your car, while our driver takes you everywhere
+            you need to be safely.
+          </p>
         </div>
       </section>
     </section>

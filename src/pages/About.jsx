@@ -68,8 +68,10 @@ function About() {
           />
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center md:flex-row bg-map">
-        <h1 className="font-bold py-8">Our Partners</h1>
+      <section className="flex flex-col justify-center items-center lg:flex-row bg-map">
+        <h1 className="font-bold py-8 md:text-6xl md:justify-self-start">
+          Our Partners
+        </h1>
         <div className="p-8">
           <img src={Partners} alt="Partners" />
         </div>

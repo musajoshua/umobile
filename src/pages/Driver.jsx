@@ -91,49 +91,47 @@ function Driver() {
           </div>
         </div>
       </section>
-      <section className="h-screen">
-        <div className="flex flex-wrap min-h-2/3 bg-mappath bg-top bg-cover bg-no-repeat p-6 md:p-8">
-          <div className="w-full lg:w-1/2">
-            <img src={PhoneDouble} alt="Phone" />
-          </div>
-          <div className="flex md:w-1/2 justify-center">
-            <div className="px-6 bg-white md:w-1/2">
-              <h1 className="font-bold text-center text-gray-700 mb-4 mt-8">
-                Sign Up
-              </h1>
-              <div>
-                <Input
-                  placeholder="Your Email"
-                  type="text"
-                  className="border-2 border-solid border-grey-400 my-2"
-                />
-                <Input
-                  placeholder="Password"
-                  type="text"
-                  className="border-2 border-solid border-grey-400 my-2"
-                />
-                <Input
-                  placeholder="Re-Type Password"
-                  type="text"
-                  className="border-2 border-solid border-grey-400 my-2"
-                />
-                <Input
-                  type="submit"
-                  value="Confirm"
-                  className="my-2 bg-blue-violet text-white rounded"
-                />
-              </div>
-              <p className="text-center my-8">OR</p>
-              <div className="border-solid border-b-2 border-gray-300 flex justify-center py-6">
-                <img src={SignInWithGoogle} alt="SignInWithGoogle" />
-              </div>
-              <p className="text-gray-500 text-center my-4">
-                Already Have an Account{" "}
-                <span className="text-blue-500 underline font-bold text-sm">
-                  Login?
-                </span>
-              </p>
+      <section className="flex flex-wrap bg-mappath bg-top bg-cover bg-no-repeat p-6 md:p-8 md:my-16">
+        <div className="w-full lg:w-1/2">
+          <img src={PhoneDouble} alt="Phone" />
+        </div>
+        <div className="flex w-full lg:w-1/2 justify-center">
+          <div className="px-6 bg-white lg:w-1/2">
+            <h1 className="font-bold text-center text-gray-700 mb-4 mt-8">
+              Sign Up
+            </h1>
+            <div>
+              <Input
+                placeholder="Your Email"
+                type="text"
+                className="border-2 border-solid border-grey-400 my-2"
+              />
+              <Input
+                placeholder="Password"
+                type="text"
+                className="border-2 border-solid border-grey-400 my-2"
+              />
+              <Input
+                placeholder="Re-Type Password"
+                type="text"
+                className="border-2 border-solid border-grey-400 my-2"
+              />
+              <Input
+                type="submit"
+                value="Confirm"
+                className="my-2 bg-blue-violet text-white rounded"
+              />
             </div>
+            <p className="text-center my-8">OR</p>
+            <div className="border-solid border-b-2 border-gray-300 flex justify-center py-6">
+              <img src={SignInWithGoogle} alt="SignInWithGoogle" />
+            </div>
+            <p className="text-gray-500 text-center my-4">
+              Already Have an Account{" "}
+              <span className="text-blue-500 underline font-bold text-sm">
+                Login?
+              </span>
+            </p>
           </div>
         </div>
       </section>

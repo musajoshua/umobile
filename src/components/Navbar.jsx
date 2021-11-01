@@ -49,7 +49,7 @@ function Navbar() {
 
         <Hamburger
           className="md:hidden"
-          open={isOpen}
+          isOpen={isOpen}
           onClick={() => setIsOpen((prev) => !prev)}
         />
       </div>

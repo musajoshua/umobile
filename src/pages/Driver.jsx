@@ -8,6 +8,7 @@ import PhoneDouble from "./../images/phone_double.png";
 import SignInWithGoogle from "./../images/signin@2x.png";
 import { AppStoreBadge, PlayStoreBadge } from "./../components/Badge";
 import { Card, StepCard } from "./../components/Card";
+import FAQ from "../components/FAQ";
 
 import Input from "../components/Input";
 
@@ -136,6 +137,30 @@ function Driver() {
             </p>
           </div>
         </div>
+      </section>
+      <section className="grid grid-col-1 mx-4 my-6 md:mx-16 md:my-12 py-4">
+        <h1 className="my-8 text-xl md:text-5xl capitalize text-black font-bold text-center">
+          Frequently Asked Questions
+        </h1>
+        <p className="text-center text-xs md:text-2xl mb-4 text-blue-violet">
+          Here are some frequently asked questions.
+        </p>
+        <FAQ
+          question="Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+          answer="Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+        />
+        <FAQ
+          question="Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+          answer="Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+        />
+        <FAQ
+          question="Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+          answer="Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+        />
+        <FAQ
+          question="Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+          answer="Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+        />
       </section>
     </section>
   );

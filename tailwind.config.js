@@ -32,6 +32,7 @@ module.exports = {
       },
       colors: {
         "black-transparent": "rgba(0, 0, 0, 0.8)",
+        cultured: "#F8F8F8",
         "electric-ultramarine": "#3C00FF",
         "dark-silver": "#707070",
         "eerie-black": "#17181A",

@@ -26,6 +26,9 @@ module.exports = {
       fontSize: {
         "5xl": "40px",
         "6xl": "48px",
+        "7xl": "52px",
+        "8xl": "56px",
+        "9xl": "60px",
       },
       colors: {
         "black-transparent": "rgba(0, 0, 0, 0.8)",

@@ -35,8 +35,10 @@ function Rider() {
         </div>
       </section>
       <section className="overflow-y-auto text-center xl:overflow-y-hidden">
-        <h1 className="mt-8 text-lg text-black font-bold">Why US?</h1>
-        <div className="flex flex-wrap bg-phone z-10 relative before:-z-10 before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:bg-white-transparent md:before:bg-none md:bg-opacity-10 xl:bg-none bg-no-repeat bg-center bg-contain">
+        <h1 className="my-8 text-lg md:text-5xl capitalize text-black font-bold">
+          Why US?
+        </h1>
+        <div className="flex flex-wrap bg-phone z-10 md:static relative before:-z-10 before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:bg-white-transparent md:before:bg-none md:bg-opacity-10 xl:bg-none bg-no-repeat bg-center bg-contain">
           <div className="flex flex-wrap w-full md:w-1/2 xl:w-1/3">
             <Card
               number={1}
@@ -67,7 +69,7 @@ function Rider() {
         </div>
       </section>
       <section className="text-center">
-        <h1 className="mt-8 text-lg text-black font-bold">
+        <h1 className="my-8 text-lg md:text-5xl capitalize text-black font-bold">
           Keep Moving In 3 Steps
         </h1>
         <div className="md:bg-stepmap md:bg-no-repeat md:bg-center md:bg-contain">
@@ -92,10 +94,12 @@ function Rider() {
           <img src={PhoneDouble} alt="Phone" />
         </div>
         <div className="text-center mt-4 md:p-8 lg:text-left lg:w-1/2">
-          <p className="text-3xl text-black font-bold my-2">
+          <p className="text-2xl md:text-9xl text-black font-bold my-2 md:mb-6">
             Move with Umobile
           </p>
-          <p className="text-3xl text-black font-bold">Anytime, Anyday</p>
+          <p className="text-2xl md:text-9xl text-black font-bold md:mt-6">
+            Anytime, Anyday
+          </p>
           <p className="text-gray-500 mt-5 text-sm md:text-lg lg:w-3/4">
             Let’s paint you a picture, you’ve got tons of meetings planned out
             for the day, and maybe a hangout or two with the besties, Driving

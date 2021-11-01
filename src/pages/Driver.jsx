@@ -39,8 +39,10 @@ function Driver() {
         </div>
       </section>
       <section className="overflow-y-auto text-center xl:overflow-y-hidden">
-        <h1 className="mt-8 text-lg text-black font-bold">Why US?</h1>
-        <div className="flex flex-wrap bg-phone z-10 relative before:-z-10 before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:bg-white-transparent md:before:bg-none md:bg-opacity-10 xl:bg-none bg-no-repeat bg-center bg-contain">
+        <h1 className="my-8 text-lg md:text-5xl capitalize text-black font-bold">
+          Why US?
+        </h1>
+        <div className="flex flex-wrap bg-phone z-10 md:static relative before:-z-10 before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:bg-white-transparent md:before:bg-none md:bg-opacity-10 xl:bg-none bg-no-repeat bg-center bg-contain">
           <div className="flex flex-wrap w-full md:w-1/2 xl:w-1/3">
             <Card
               number={1}
@@ -71,8 +73,8 @@ function Driver() {
         </div>
       </section>
       <section className="text-center">
-        <h1 className="mt-8 text-lg text-black font-bold">
-          Keep Moving In 3 Steps
+        <h1 className="my-8 text-lg md:text-5xl capitalize text-black font-bold">
+          How to become a driver
         </h1>
         <div className="md:bg-stepmap md:bg-no-repeat md:bg-center md:bg-contain">
           <div className="flex flex-col md:flex-row md:py-20 items-start md:h-[500px]">
@@ -97,7 +99,7 @@ function Driver() {
         </div>
         <div className="flex w-full lg:w-1/2 justify-center">
           <div className="px-6 bg-white xl:w-1/2">
-            <h1 className="font-bold text-center text-gray-700 mb-4 mt-8">
+            <h1 className="font-bold text-center text-sm md:text-2xl text-gray-700 mb-4 mt-8">
               Sign Up
             </h1>
             <div>
